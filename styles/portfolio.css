@@ -34,6 +34,7 @@ nav {
   font-weight: 700;
   line-height: normal;
   padding: 15px 35px;
+  margin-top: 0;
 }
 nav > ul {
   display: flex;
@@ -53,15 +54,65 @@ nav a {
 }
 /* header related styles  */
 .head_section {
+  margin-left: 23px;
   background-color: #fff8f3;
-  background-image: url("E:\web projects\milestone_1\practice_4(portfolio_website)\images\header_bg.png");
+  background-image: url("/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-image: url("/images/developer.png");
+  background-repeat: none;
+  background-position: left;
 }
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .banner .profile-pic {
   width: 584px;
   height: 676px;
+}
+.banner-greeting {
+  color: var(--Dark-02, #474747);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.banner-title {
+  margin-top: 5px;
+  color: var(--Dark-01, #181818);
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.banner-description {
+  margin-top: 0;
+  margin-bottom: 30px;
+  max-width: 585px;
+}
+/* main section styles */
+
+/* about section styles */
+
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-details {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+}
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin-top: 130px 0;
 }
