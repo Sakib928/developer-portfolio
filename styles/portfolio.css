@@ -54,6 +54,7 @@ nav a {
 /* header related styles  */
 .head_section {
   background-color: #fff8f3;
+  background-image: url("E:\web projects\milestone_1\practice_4(portfolio_website)\images\header_bg.png");
 }
 .banner {
   padding: 30px 30px 30px 150px;
